@@ -1,0 +1,16 @@
+/* src/styles/footer.css */
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  width: 100vw; /* Full viewport width */
+  box-sizing: border-box; /* Ensures padding is included within the width */
+  position: relative; /* Keeps footer within the normal document flow */
+  left: 0;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}

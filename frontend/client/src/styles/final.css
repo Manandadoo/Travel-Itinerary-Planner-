@@ -1,0 +1,67 @@
+/* final.css */
+
+/* Unique class for final page */
+.final-page {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('/public/images/itenary.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    padding: 20px;
+}
+
+.final-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff7043;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.final-page .itinerary-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.final-page .section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+}
+
+.final-page .section div {
+    margin: 5px 0;
+}
+
+.final-page .section ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.final-page .footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.final-page .footer a {
+    color: #ff7043;
+    text-decoration: none;
+}
+
+.final-page .footer a:hover {
+    text-decoration: underline;
+}

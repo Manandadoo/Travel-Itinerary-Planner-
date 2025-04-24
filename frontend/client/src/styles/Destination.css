@@ -1,0 +1,84 @@
+/* src/styles/destination.css */
+
+.destination-page {
+    width: 100%; /* Ensure the main container takes the full width */
+    min-height: 100vh; /* Ensures it occupies the full height of the screen */
+    display: flex;
+    flex-direction: column; /* To align the header, main content, and footer in a column */
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+    padding: 0; /* Remove any padding around the main container */
+    background: linear-gradient(to right, #f0f8ff, #e0f7fa); /* Background */
+}
+
+.destination-page h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.destination-page .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.destination-page .card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    text-align: center;
+}
+
+.destination-page .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destination-page .card h3 {
+    font-size: 1.8rem;
+    margin: 20px 0 10px;
+    color: #444;
+}
+
+.destination-page .card p {
+    font-size: 1rem;
+    color: #777;
+    padding: 0 15px 20px;
+}
+
+.destination-page .card .btn {
+    display: inline-block;
+    background-color: #ff7043;
+    color: white;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.destination-page .card .btn:hover {
+    background-color: #ff5722;
+}
+
+.destination-page .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: You can also ensure that the header and footer take the full width */
+header, footer {
+    width: 100%;
+}

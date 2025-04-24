@@ -1,0 +1,45 @@
+/* styles/Landing.css (for React component) */
+
+body.landing-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('/public/images/fsd_img_2.jpeg') no-repeat center center fixed; /* Correct background path for React */
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.landing-container {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background for readability */
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.landing-container h1 {
+    font-size: 4rem;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    color: #ff6f61;
+}
+
+.landing-container .btn {
+    text-decoration: none;
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 30px;
+    margin: 0 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.landing-container .btn:hover {
+    background-color: #e85749;
+    transform: translateY(-5px);
+}

@@ -1,0 +1,47 @@
+/* src/styles/header.css */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333; /* Background color for the header */
+  color: white;
+  width: 100%; /* Full width to cover the screen */
+  box-sizing: border-box; /* Ensures padding is included within the width */
+  position: relative; /* Keeps it in flow with the rest of the page */
+}
+
+/* Logo Styling */
+header .logo h1 {
+  margin: 0;
+  font-size: 2.2rem; /* Font size for the logo */
+  font-family: 'Arial', sans-serif; /* Font family */
+  font-weight: bold; /* Ensure the logo stands out */
+  color: white;
+}
+
+/* Navigation Styling */
+header nav ul {
+  list-style: none; /* Removes the bullet points */
+  display: flex; /* Flexbox for horizontal arrangement */
+  gap: 20px; /* Space between the items */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+header nav ul li {
+  display: inline-block; /* Display list items inline */
+}
+
+header nav ul li a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline by default */
+  font-size: 1.5rem; /* Font size for the links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+header nav ul li a:hover {
+  color: #f1f1f1; /* Lighter color on hover */
+  text-decoration: underline; /* Underline effect on hover */
+}

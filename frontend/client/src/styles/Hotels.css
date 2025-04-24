@@ -1,0 +1,167 @@
+/* General Body Styling */
+.hotels-page body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f0f8ff, #e0f7fa);
+}
+
+/* Filters Section Styling */
+.hotels-page section#filters {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hotels-page h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+/* Hotel Card Styling */
+.hotels-page .hotel-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hotel Info Section Styling */
+.hotels-page .hotel-info {
+    flex: 1;
+}
+
+.hotels-page .hotel-info h3 {
+    font-size: 1.8rem;
+    color: #444;
+}
+
+.hotels-page .hotel-info p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.hotels-page .hotel-details p {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* Amenities Section Styling */
+.hotels-page .amenities-section {
+    margin-top: 10px;
+}
+
+.hotels-page .amenities-section h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.hotels-page .amenities-section p {
+    color: #777;
+}
+
+/* Action Button Styling */
+.hotels-page .hotel-action {
+    align-self: center;
+}
+
+.hotels-page .btn {
+    display: inline-block;
+    background-color: #ff7043;
+    color: white;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hotels-page .btn:hover {
+    background-color: #ff5722;
+}
+
+/* Selected Card Styling (hover effect) */
+.hotels-page .hotel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styling */
+.hotels-page #filters-form {
+    display: flex;
+    justify-content: space-between; /* Arrange elements on the same line */
+    align-items: center;
+    gap: 20px; /* Adds space between the filter elements */
+    margin-top: 20px;
+}
+
+.hotels-page #filters-form label {
+    display: block;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.hotels-page #filters-form select,
+.hotels-page #filters-form input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 150px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+.hotels-page #filters-form button {
+    display: inline-block;
+    background-color: #ff7043;
+    color: white;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hotels-page #filters-form button:hover {
+    background-color: #ff5722;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    /* Hotel Card Stack */
+    .hotels-page .hotel-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hotels-page .hotel-info {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .hotels-page .hotel-action {
+        margin-top: 15px;
+    }
+
+    /* Filter form on mobile devices */
+    .hotels-page #filters-form {
+        flex-direction: column; /* Stack the filter inputs */
+        align-items: stretch; /* Make inputs take full width */
+        gap: 10px;
+    }
+
+    .hotels-page #filters-form select,
+    .hotels-page #filters-form input[type="number"] {
+        width: 100%; /* Make the inputs take full width on smaller screens */
+    }
+}
