@@ -1,21 +1,21 @@
-Travel Itinerary Planner
+# Travel Itinerary Planner
 A web-based application designed to simplify travel planning by allowing users to create, customize, and manage their travel itineraries with ease.
 
-✨ Features
+## ✨ Features
 User-Friendly Interface: Intuitive design for seamless navigation and itinerary creation.
 
 Customizable Itineraries: Add, edit, or remove destinations and activities as per your travel plans.
 
 Responsive Design: Optimized for various devices, ensuring accessibility on desktops, tablets, and smartphones.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Frontend: React.js, HTML, CSS
 
 Backend: Node.js, Express.js
 
 Database: MongoDB
 
-🚀 Getting Started
+## 🚀 Getting Started
 Prerequisites
 Ensure you have the following installed:
 
@@ -23,7 +23,7 @@ Node.js
 
 MongoDB
 
-Installation
+### Installation
 Clone the repository:
 
 bash
@@ -68,7 +68,7 @@ cd ../frontend
 npm start
 The frontend will typically run on http://localhost:3000 and the backend on http://localhost:5000.
 
-📁 Project Structure
+## 📁 Project Structure
 pgsql
 Copy
 Edit
