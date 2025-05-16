@@ -88,7 +88,3 @@ Travel-Itinerary-Planner-/
 │   └── package.json
 └── README.md
 ```
-
-## 📬 Contact
-
-For inquiries or feedback, feel free to contact [your.email@example.com](mailto:your.email@example.com).
